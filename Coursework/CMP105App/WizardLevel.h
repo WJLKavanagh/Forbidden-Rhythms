@@ -4,6 +4,7 @@
 #include "TextureManager.h"
 #include "StageGrid.h"
 #include "Player.h"
+#include "LecturEH.h"
 #include <random>
 #include <algorithm>
 
@@ -33,6 +34,7 @@ private:
 	};
 
 	TextureManager* textMan;
+	LecturEH* lecturer;
 	StageGrid grid;
 	Player player;
 	GameObject gridBoard;

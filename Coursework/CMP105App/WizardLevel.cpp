@@ -110,6 +110,10 @@ WizardLevel::WizardLevel(sf::RenderWindow* hwnd, Input* in, GameState* gs, Audio
 		iconText.setPosition(boardLeft + i * 100 + 28, boardBottom + 200);
 		controls.push_back(iconText);
 	}
+
+	lecturer = new LecturEH(textMan);
+	lecturer->setSize(sf::Vector2f(window->getSize().y*0.2, window->getSize().y * 0.2));
+	lecturer->setPosition(window->getSize().x * 0.7, window->getSize().y*0.65);
 }
 
 WizardLevel::~WizardLevel() {}
@@ -247,6 +251,7 @@ void WizardLevel::update(float dt)
 	}
 
 	player.update(dt);
+	lecturer->update(dt);
 
 	// check if controls need to be changed
 	if (timeTaken > TIME_BETWEEN_CHANGES + lastControlChange)
@@ -389,6 +394,7 @@ void WizardLevel::render()
 	window->draw(progressInStepBG);
 	window->draw(targetZone);
 	window->draw(progressInStep);
+	window->draw(*lecturer);
 	for (GameObject ind : indicators)
 	{
 		window->draw(ind);

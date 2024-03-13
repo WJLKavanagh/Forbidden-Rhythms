@@ -246,6 +246,7 @@
     <ClCompile Include="Framework\SoundObject.cpp" />
     <ClCompile Include="Framework\TileMap.cpp" />
     <ClCompile Include="Framework\VectorHelper.cpp" />
+    <ClCompile Include="LecturEH.cpp" />
     <ClCompile Include="Lecturer.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -274,6 +275,7 @@
     <ClInclude Include="Framework\SoundObject.h" />
     <ClInclude Include="Framework\TileMap.h" />
     <ClInclude Include="Framework\VectorHelper.h" />
+    <ClInclude Include="LecturEH.h" />
     <ClInclude Include="Lecturer.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="Player.h" />
