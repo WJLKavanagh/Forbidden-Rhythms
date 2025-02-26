@@ -1,9 +1,12 @@
-# CMP105 2023-4 
+# CMP105 2024-5 
 
 Forbidden Rhythms. 
 by William Kavanagh.
 
-A simple rhythm-movement game with a Chrome-dino-inspired intercedent level.
+A mixed style game with the following 3 levels:
+1. A simple rhythm-movement game where a lecturer offers helpful tips.
+2. A dino jump level.
+3. A complicated rhythm-movement game where a lecturer keeps changing things up.
 
 Note: This is not polished, or bug-free. But it (mostly) works. There are thousands of ways in which it can be improved/extended/expanded/remade/rebuilt.
 

@@ -20,11 +20,10 @@ public:
 
 	GameObject fan;			// sadBear
 	GameObject bg;
-	sf::Text explanationText;	
+	sf::Text explanationText;
 	sf::Text titleText;
 	sf::Text singleRunText;
 	sf::Font montsFont;
-
 
 	float animTimer;
 
